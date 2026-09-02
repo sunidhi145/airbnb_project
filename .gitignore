@@ -4,7 +4,17 @@ __pycache__/
 build/
 dist/
 wheels/
-*.egg-info
+*.egg-info/
 
-# Virtual environments
-.venv
+# Virtual environment
+.venv/
+
+# dbt-generated files
+logs/
+target/
+dbt_packages/
+
+# Secrets / local config
+profiles.yml
+.env
+.user.yml
