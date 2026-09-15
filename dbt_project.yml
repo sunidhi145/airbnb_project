@@ -10,16 +10,11 @@ seed-paths: ["seeds"]
 macro-paths: ["macros"]
 snapshot-paths: ["snapshots"]
 
-clean-targets:         
+clean-targets:
   - "target"
   - "dbt_packages"
-
 
 models:
   aws_dbt_snowflake_project:
     demo:
       +materialized: table
-      bronze:
-        +schema: bronze
-      silver:
-        +schema: silver
