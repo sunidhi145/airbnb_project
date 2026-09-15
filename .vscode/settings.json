@@ -1,0 +1,7 @@
+{
+  "dbt.dbtIntegration": "core",
+  "dbt.dbtPythonPathOverride": "C:\\Users\\sunid\\OneDrive\\Desktop\\DBT_Snowflake\\.venv\\Scripts\\python.exe",
+  "dbt.allowListFolders": [
+    "aws_dbt_snowflake_project"
+  ]
+}
