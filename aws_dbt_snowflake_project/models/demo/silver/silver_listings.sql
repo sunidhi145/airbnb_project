@@ -6,7 +6,7 @@ SELECT
     PROPERTY_TYPE,
     ROOM_TYPE,
     CITY,
-    COgit statusUNTRY,
+    COUNTRY,
     ACCOMMODATES,
     BEDROOMS,
     BATHROOMS,

@@ -1,1 +1,1 @@
-SELECT * FROM {{ref('bronze_bookings')}}
+SELECT * FROM AIRBNB.SILVER.SILVER_HOSTS
